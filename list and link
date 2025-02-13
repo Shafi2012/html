@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>my shopping list</h1>
+ <ul>
+    <li>dress </li>
+    <li>shoe</li>
+    <li>watch</li>
+    <li>pen</li>
+ </ul>
+ <h1>best footballer</h1>
+ <ol>
+    <li> messi</li>
+    <li>ronaldo</li>
+    <li>neymar</li>
+    <li>lewandowski</li>
+    <li>iniesta</li>
+    <li>mbappe</li>
+    <li>pogba</li>
+    <li>bale</li>
+    <li>raphinha</li>
+    <li>luis suarez</li>
+ </ol>
+    <a href="https://www.givemesport.com/best-dribblers-football-history-ranked/">click here to know more about football</a>
+</body>
+</html>
