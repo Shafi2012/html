@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <label for="">NAME</label>
+        <input type="text" placeholder="enter your name"><br>
+        <label for="">AGE</label>
+        <input type="number" placeholder="enter your age"> <br>
+        <label for="">password</label>
+        <input type="password" placeholder="enter your password"><br>
+        <label for="">email</label>
+        <input type="email" placeholder="enter your email"><br>
+        <label for="">CONTACT NUMBER</label>
+        <input type="text" placeholder="enter your number"><br>
+        <label for="">GENDER</label><br>
+        <input type="radio" name="gender" value="male">GIRL <br>
+        <input type="radio" name="gender" value="female">BOY <br>
+
+         <button>submit</button>
+   </form> 
+</body>
+</html>
