@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>h1{color:
+     red;font: 76px; } 
+        h2{ color:
+             rgb(31, 53, 131);font-size:32px}
+h3{ color: 
+    orangered;font-size: 67px;}
+    #s12{ color: blueviolet; font-size: 53px}
+    </style>
+</head>
+<body>
+    
+    <p style="color:rgb(69, 109, 50);font-size:57px" >
+        HELLO MY NAME IS AHNAF HOSSAIN SHAFI. I LIKE TO PLAY FOOTBALL.
+    </p>
+    <h1>Chicken</h1>
+    <H2>fried rice</H2>
+    <h3>pizza</h3>
+    <h1 id="s12">beef</h1>
+</body>
+</html>
