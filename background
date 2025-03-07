@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+        background-color: rgb(37, 37, 181);
+        background-image:url("https://m.media-amazon.com/images/I/71dNsMmZDgL._AC_SL1500_.jpg");
+       background-size:225px;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-attachment: scroll;
+       background-image-color: blue;
+    }
+  </style>
+</head>
+<body>
+    Hello World <br>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ipsam iusto ex ut quia vero nobis exercitationem quam optio. Reiciendis odio fuga ipsum tempore, assumenda culpa quae nisi perspiciatis error!
+    
+</body>
+</html>
