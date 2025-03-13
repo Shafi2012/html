@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Typography</title>
+    <style>
+            .Text1{
+            color: red;
+            font-family: Georgia, 'Times New Roman', Times, serif
+                    }
+            .text2{
+                color: blue;
+                font-family: garamond
+            }
+            #line1{ 
+                text-shadow:3px 1px 2px burlywood ;
+            }
+            #line2{               
+                box-shadow: 5px 10px 8px rgb(119, 105, 105);
+            }
+                    
+    </style>
+</head>
+<body>
+    <h1>
+        Typography
+    </h1>
+    <p class="Text1">  welcome to codingal</p>
+    <p class="text2">Welcome to codingal</p>
+    <p id="line1">u can use text shadow by text shadow tag</p>
+    <p id="line2">u can use box shadow y box shadow tag</p>
+</body>
+</html>
