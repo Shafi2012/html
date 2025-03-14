@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    body{ background-color: black;
+    color: white;
+    }
+    h1{
+        color: rgb(24, 65, 169);
+    }
+    li{
+        font-weight: bold;
+    }
+    li:hover{
+        color:red;
+    }
+    li:nth-child(3){
+        background-color:  rgb(123, 11, 228);
+    }
+    li::before{
+        content:"🚀";
+    }
+   a::after{
+        content: "🌌";
+    }
+    p::first-letter{
+        font-size: 37px;
+        color:  rgb(230, 20, 38);
+    }
+       
+   </style>
+</head>
+<body>
+    <h1>Welcome to the space explorer's club</h1>
+    <ul>
+        <li> Moon mission </li>
+        <li> Mars Rovers </li>
+        <li> International space station</li>
+        <li> Telescope and stars</li>
+        <li>Black hole mysteries</li>
+    </ul>
+    <p>Space exploration has always
+
+        captivated human imagination.
+        
+        It's a journey to the unknown!</p>
+        
+        <p>From the Moon to distant galaxies,
+        
+        we continue to explore the
+        
+        vastness of space.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Aldrin_Apollo_11_cropped.jpg" alt="" height="478" width="500"><br>
+        <a href="#">Join our mission</a>
+        <a href="#">Latest space news</a>
+        <a href="#">Gallery of the universe</a>
+</body>
+</html>
