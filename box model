@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        p{
+            text-align: center;
+            border: 92px solid blue ;
+            margin-top: 56px;
+            margin-left: 67px;
+            padding: 100px 90px 100px 90px;
+        }
+        #flowerRight{
+        float:right;
+        }
+        #flowerLeft{
+            float: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>SHAFI
+        <img id="flowerRight" src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt134818d279038650/6668df6434f6fb5cd48aac34/beautiful-flowers-rose.jpeg?q=70&width=3840&auto=webp" height="60px" width="60px" alt=""> 
+    <img id="flowerLeft" src="https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt134818d279038650/6668df6434f6fb5cd48aac34/beautiful-flowers-rose.jpeg?q=70&width=3840&auto=webp" height="60px" width="60px" alt="">
+</p>
+</body>
+</html>
+
