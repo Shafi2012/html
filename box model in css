@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+    p{
+        text-align: center;
+        border: 20px solid black; 34px 45px 32px 23px;
+        
+            padding: 100px 90px 
+            margin-top: 56px;
+            margin-left 100px 90px;
+            #flowerRight{
+        float:right;
+        }
+        #flowerLeft{
+            float: left;
+    }
+ </style>
+</head>
+<body>
+   <p>Hi me shafi</p>
+   <img id="flowerLeft" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg" height="80px" alt="">
+   <img id="flowerRight" src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg" height="80px" alt=""> 
+</body>
+</html>
