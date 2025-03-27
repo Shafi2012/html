@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <style>
+        h1{
+            color: red; font-size: 50px;
+        }
+        #text1{
+            color: blue;font-size: 35px;
+        }
+        #text2{
+            color: red;
+        }
+        footer{
+            color: rgb(98, 98, 174);
+        }
+        main{
+            color: black; font-size:20px ; font-family:didot;
+        }
+
+     </style>
+</head>
+<body>
+   <h1>Cherry Blossoms Int'l School and College </h1>
+<h3 id="text1">Discover our school</h3> 
+<main>Cherry Blossoms International School & College is a modern educational institution established in 1996 by renowned educationist, as well as a philanthropist Dr.Shaleha Kader (Founder Principal & Chairman). It started functioning as the first O & A Level English medium school in greater Mirpur, Dhaka. This institution is registered with Edexcel, Centre Number 96440, UK. It provides the students with the golden opportunity to acquire education through English Medium and get admission in major universities in Bangladesh and overseas in pursuit of excellence in education.</main>
+</h5>NAME OF THE SUJECT AND TEACER OF GRADE-6</h4>
+<ol><li> MATH-FATEEMA MISS (CLASS TEACHER)</li>
+<li>ENGLISH LANGUAGE-REZA SIR</li>
+<li>ENGLISH LITERATURE-MAISHA MISS</li>
+<li>RELIGIOUS STUDIES-JIKRULLAH SIR</li>
+<li>BANGLA-JEBA MISS</li>
+<LI>CHEMISTRY-AWAL SIR</LI>
+<LI>SOCIAL STUDIES-MAISHA MISS</LI>
+<LI>PHSICS-PROVATH SIR</LI>
+<LI>BIOLOGY-ZERIN MISS</LI>
+<LI>ICT-KAYES SIR</LI>
+<LI>ART-JUTHI MISS</LI>
+<LI>PROGAMMING-KAYES SIR</LI>
+</ol>
+<a href="https://cherryblossomsint.com/">Click on this to visit our original website</a>
+<h3 id="text2">Our First achievement</h3>
+<img src="https://cherryblossomsint.com/img/carousel-2.jpg" alt="" height="326px"> 
+<header>
+    <h2>Navigational link</h2>
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">post</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<h3> If you want to enroll in our school please fil up this form</h3>
+<form>
+<fieldset>
+    <label for="name">name</label>
+    <input type="text"> <br>
+    <label for="age">age</label>
+    <input type="number"> <br>
+    <label for="">Phone number</label>
+    <input type="text"> <br>
+    <label for="">Email adress</label>
+    <input type="email">
+</fieldset>
+</form>
+<footer>
+    Contact Information <br>
+ Contact number:+880-1715-081014 <br>
+ Email adress:info@cherryblossomsint.com <br>
+ Office adress:House -7, Road 4, Block A, Section-6, Mirpur, Dhaka 1216
+</footer>
+</body>
+</html>
