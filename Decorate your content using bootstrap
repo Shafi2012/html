@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+</head>
+<body>
+    <code>a</code>
+    <mark>Eid  Mubarrak</mark>
+  <h1> abbreviation</h1>  
+  <p> Hi My name is shafi</p>
+  <abbr title="Cherry Blossoms International School and College">CBISC</abbr> is the first english medium school in bd
+  <h1>blockquote</h1>
+  <p> Eid mubarrak</p>
+  <blockquote class="blockquote">
+    <p>I am so happy cause tmr is eid</p>
+   <footer class="blockquote footer">Eid mubarrak</footer>
+  </blockquote>
+  <h1>Multiple code lines</h1>
+  <p>for Multiple lines of code,use the pre element</p>
+  <pre>
+    >I am so happy 
+    cause tmr 
+    is
+     EID
+  </pre>
+  <h1>keyboard input</h1>
+  <p>to indicate input that is typically entered via the keyboard, use the kbd element</p>
+  <p>use <kbd>ctrl+v</kbd>to open the print dialog box</p>
+
+<input type="text" name="shafi" id="blue">
+</body>
+</html>
