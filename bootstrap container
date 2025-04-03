@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container m-4 bg-danger text-primary">
+  Hello
+    </div>
+    <div class="container p-5 bg-primary text-danger">
+        Hello
+        </div>
+        <div class="container pl-3 bg-warning text-dark">
+            Hello
+              </div>
+              <div class="container pr-4 bg-success text-light">
+                Hello
+                  </div>      
+                  <div class="container mt-2 bg-info text-secondary">
+                    Hello
+                      </div>
+                      <div class="container mr-5 bg-dark text-white">
+                        Hello
+                          </div>
+
+    
+</body>
+</html>
