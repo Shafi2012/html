@@ -1,0 +1,21 @@
+<link rel="stylesheet" href=
+
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <script src=
+    
+    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    
+    </script>
+    <div class="conatiner bg-danger text-success">
+        playing <br>
+        I love to play football alot. Wheever i get time i play football.It lets me enjoy the time i am passing. However i also play other sports like cricket,badminton,race etc.
+    </div>
+    <div class="container bg-warning text-danger">
+        travelling <br>
+        Traveling offers a unique blend of adventure, education, and personal growth. It allows us to step outside our daily routines and explore new cultures, landscapes, and experiences, fostering both a deeper understanding of the world and a broader perspective on our own lives.
+    </div>
+    <div class="container bg-success text-dark">
+Reading books <br>
+Reading books is a valuable habit that enriches our minds, expands our knowledge, and cultivates empathy, offering a gateway to diverse worlds and experiences. 
+    </div>
