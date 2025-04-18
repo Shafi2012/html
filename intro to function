@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>What is the sum of 2542+390001+1254</h3>
+    <h1 id="result"></h1>
+    <button onclick="sum1()">Click to see the result </button> <br>
+    <script>
+        function festival() {
+            document.write("Eid is the best festival ever <br>")     
+        }
+        festival()
+            festival()
+            festival() 
+        function sum(a,b,x){
+            document.write(a+b+x+ "<br>")
+        }
+        sum(132,224,42)
+            sum(253,481,21)
+            sum(199,212,9012)   
+            var a=254200212412000121412434141
+            var b=39000100000012244524123
+            var x=1254001414141100000414110
+            function sum1() {
+                document.getElementById("result").innerHTML=a+b+x
+            }
+
+    </script>
+</body>
+</html>
