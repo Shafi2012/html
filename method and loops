@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Methods in Javascript</h3>
+    <p>Hello World</p>
+    <script>
+        var HI="Interesting"
+        document.write(HI.toUpperCase ())
+        document.write("<br>")
+        document.write(HI.toLowerCase ())
+        document.write("<br>")
+        document.write(HI.startsWith("S"))
+        document.write("<br>")
+        for(i=1;i<=1200;i++){
+            document.write("I am the goat/best <br>")
+        }
+    </script>
+</body>
+</html>
