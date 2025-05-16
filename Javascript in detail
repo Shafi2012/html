@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>The Javascript string() Method</h2>
+   <p id="number_result"></p>
+   <p id="string_result"></p>
+   <p id="error_message"></p>
+   <p id="result"></p>
+   <script>
+    var x = 23;
+     var y = 120
+     document.getElementById("number_result").innrHTML = x+y;
+     document.getElementById("string_result").innerHTML = String (x)
+     + String(y); // Does not add because it is a string concatenates
+    try {
+        var x=46
+        var a=24
+        var y=93
+        document.write(x+b)
+    }
+    catch(err) {
+        document.getElementById("error_message").innerHTML = err.message;}
+    document.write("I am executed after error")
+    add = (a,b) => a-b;
+    document.getElementById("result").innerHTML=add(3,9)
+   </script>
+</body>
+</html>
