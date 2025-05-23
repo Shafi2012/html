@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <form name="myForm" onsubmit="validateForm()">Name: <input type="text" name="shafi"> <input type="submit" value="Submit"> <p id="message"></p></form>
+   <p>Enter a number and click OK</p>
+   <input id="API" type="number"  min="79" max="245" required>
+ <button onclick="myFunction()">OK</button>
+ <p>If the number is less than 79 and more than 245, an error message will be displayed</p>
+ <p id="result"></p>
+</body>
+<script>
+    function validateForm() {
+        var x = document.forms["myForm"]["shafi"].value;
+        if (x == "") {
+            alert("Name must be filled out");
+            return False;
+        }}
+        function myFunction() {
+            var inpObj = document.getElementById("API");
+            if (! inpObj.checkValidity()) {
+                document.getElementById("result").innerHTML = inpObj.validationMessage
+                }
+            else {
+                document.getElementById("result").innerHTML = "Input OK";
+            }
+                
+                
+            }
+        
+    </script>
+</html>
