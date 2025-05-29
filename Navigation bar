@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+<!-- My CSS -->
+<link rel="stylesheet" href="style.css" />
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/996973c893.js"></script>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+    
+    html {
+        background: #252525;
+        font-family: "Baloo Tamma 2",cursive;
+    }
+   .m-heading {
+    font-family: "Roboto Slab",serif;
+   } 
+   .navigation-link {
+    border: 2px solid transparent;
+   }
+   .navigation-link:hover {
+    text-decoration: none;
+    border: bottom 2px solid #f5ba09 ;
+    transition:0.5s ease
+   }
+    </style>
+</head>
+<div class="container navigation pt-3 pb-3">
+    <div class="row">
+        <div class="col-6 d-flex justify content-start align-items-center"><i class="fa solid fa-code fa-2x fa-fw text-warning pb-3"></i>
+            <h5 class="d-inline pl-2 text-success">CODINGAL</h5>
+        </div>
+        <div class="col-6 pt-2">
+            <div class="row text-center p-0 d-flex justify-content-end text-align-center">
+                <div class="col-3">
+                    <a href="#about" class="text-success navigation-link">About</a>
+
+                </div>
+<div class="col-3">
+                    <a href="#social media" class="text-success navigation-link">Project</a>
+
+        </div>
+        <div class="col-3">
+                    <a href="#about" class="text-success navigation-link">social media</a>
+<div class="col-3">
+                    <a href="#resume" class="text-success navigation-link">Resume</a>
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+    
+</body>
+</html>
