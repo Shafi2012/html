@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Bootstrap CSS -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+<!-- My CSS -->
+
+<link rel="stylesheet" href="style.css" />
+
+<!-- Font Awesome -->
+
+<script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+<!-- Google Fonts -->
+
+<link
+
+href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+
+rel="stylesheet" />
+<style>
+.about {
+    background-color: black;
+    border-radius: 0.5rem;
+}
+#orange {
+    color: orangered;
+}
+</style>
+</head>
+<body>
+    <!--About Section-->
+    <div id="about" class="container about p-5">
+        <div class="row">
+            <div class="col-6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVcZ4pP_fMZ9ji8LrccMxDekGqzu6E6e1Jow&s" alt="">
+            </div>
+            <div class="col-6 pl-5 pt-5 pb-5 text-white">
+                <h3 class="text-warning">About Codingal</h3>
+                <h1 class="m-heading">A little bit about me</h1>
+                <p>
+                    <b class="">Codingal</b> is on a misssion to inspire school kids to <b id="orange">fall in love with coding</b>. Coding helps develop logical thinking and probem-solving skills. Coding jobs are the future. They already constitute more than 60% of all the jobs in Science,Technology,Engineering and Math.Codingal is an online coding education platform that provides structured, interactive classes for kids and teens, focusing on live, 1:1 instruction from experienced teachers. They offer courses in various programming languages and subjects like app development, web development, and robotics, aiming to inspire children to enjoy coding and build their creative potential.  
+                </p>
+                <p>
+                    <b class="text-success">Here's a more detailed look:</b> <br>
+<b>Key Features:</b> <br>
+Live, 1:1 Instruction:
+Students receive personalized attention from trained teachers with CS/IT backgrounds. <br>
+Curriculum: <br>
+Codingal's curriculum is structured and well-designed, encouraging problem-solving and critical thinking. <br>
+Project-Based Learning: <br>
+Students learn by building real-world projects, such as apps, games, and websites, applying their coding knowledge.  <br>
+Interactive Learning: <br>
+The platform utilizes interactive and engaging methods, including quizzes, coding challenges, and video tutorials.  <br>
+Experienced Instructors: <br>
+Codingal boasts a team of experienced instructors who understand how children learn and can tailor their teaching approach.  <br>
+Diverse Courses: <br>
+They offer a range of courses, including Scratch, Python, Java, App Development, Web Development, and more.  <br>
+Flexible Learning: <br>
+Codingal provides flexible scheduling and customized curriculum options. <br> 
+Supportive Environment: <br>
+Codingal aims to create a supportive learning environment where students can thrive.  <br>
+AI and Human Tutors: <br>
+They aim to build a large programming school for kids and teens, leveraging both AI and human tutors. <br> 
+Premium Learning Program (Codingal Prime): <br>
+This program offers additional benefits like private tutoring, flexible timings, unlimited doubt sessions, and more. <br>
+ A 96-lesson coding curriculum designed for kids and teens to master coding skills, fostering creativity and technical proficiency.
+                </p>
+                <button class="btn btn-outline-warning">Learn warning</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
