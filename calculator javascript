@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+
+  
+    
+  <style>
+     /* CSS Reset & Global Styles */
+     * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "Open Sans" , sans-serif;
+        font-weight: bolder;
+     }
+     ::placeholder {
+        color: rgb(27, 4, 4);
+        opacity: 0.3;
+     }
+     .wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        transition: 0.00000001s all;
+     }
+     h1 {
+        text-align: center;
+        margin-bottom: 1.5%;
+        color: antiquewhite;
+     }
+     .container {
+        width: 300px;
+     }
+     #result {
+    width: 73%;
+     }
+     input {
+        padding: 25px;
+        color: antiquewhite;
+        font-size: 1em;
+     cursor: pointer;
+     width: 70px;
+     background-color: rgb(47,51,50) ;
+     border: none;
+     outline: none;
+     border-radius: 6px;
+    }
+    .row {
+        margin-bottom: 3px;
+    }
+    input[type="text"] {
+        background-color: bisque;
+        color: #fff;
+    }
+    button {
+        border: none;
+        background-color: rgb(39,36,36);
+        padding: 8px;
+        color:white;
+        margin: 2px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 6px;
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+    .clear-button{
+        color: #fff;
+        background-color: red;
+        width: 97.5%;
+    }
+  </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Caculator</h1>
+            <div class="row">
+                <input type="text" name="result" id="result" value=""
+                placeholder="Result" readonly />
+                 <input type="button" value="+" onclick="setScreenValue('+')"/>
+                <input type="button" value="1" onclick="setScreenValue('1')"/>
+                <input type="button" value="2" onclick="setScreenValue('2')"/>
+                <input type="button" value="3" onclick="setScreenValue('3')"/>
+                <input type="button" value="-" onclick="setScreenValue('-')"/>
+               
+            </div>
+            <div class="row">
+                <input type="button" value="4" onclick="setScreenValue('4')"/>
+                <input type="button" value="5" onclick="setScreenValue('5')"/>
+                <input type="button" value="6" onclick="setScreenValue('6')"/>
+                <input type="button" value="" onclick="setScreenValue('')"/>
+            </div>
+            <div class="row">
+                <input type="button" value="7" onclick="setScreenValue('7')"/>
+                <input type="button" value="8" onclick="setScreenValue('8')"/>
+                <input type="button" value="9" onclick="setScreenValue('9')"/>
+                <input type="button" value="/" onclick="setScreenValue('/')"/>
+               </div>
+                <div class="row">
+                    <input type="button" value="%" onclick="setScreenValue('%')"/>
+                    <input type="button" value="0" onclick="setScreenValue('0')"/>
+                    <input type="button" value="." class="dot" onclick="setScreenValue('.')"/>
+                    <input type="button" value="=" onclick="calculateResult('=')"/>                    
+                </div>
+                <div class="row">
+                    <input type="button" value="CLEAR" onclick="clearScreen()" id="clear"
+                    class="clear-button"/>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" charset="utf-8">
+          //Clears the calculator display
+          function clearScreen() {
+            document.getElementById("result").value="";
+          }
+          //Appends the clicked button value to the display
+          function setScreenValue(value) {
+            document.getElementById("result").value+=value;
+          } 
+          //Calculates and displayes the value
+          function calculateResult() {
+           const ResultElement =  document.getElementById("result")
+           const expression = ResultElement.value.trim();
+          
+          //Check for empty input
+           if (expression==='') {
+            ResultElement.value = 'Enter an expression';
+            ruturn;
+          }
+          //Evaluate expressionand handle Error
+          try {
+            ResultElement.value = eval(expression);
+          } 
+          catch(e) {
+            ResultElement.value = 'Invalid expression';
+          }
+          }
+        </script>
+    
+</body>
+</html>
+  </body>
+</html>
